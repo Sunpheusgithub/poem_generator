@@ -1,1 +1,1 @@
-# poem_generator
+# poem_generator / trophés NSI 2025
