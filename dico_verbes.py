@@ -1,6 +1,6 @@
 verbes = []
 # Charger les données du fichier
-fichier = open("./Verbes.txt", "r", encoding="utf-8")
+fichier = open("dico_verbes.txt", "r", encoding="utf-8")
 for ligne in fichier:
     mots = ligne.strip().split(", ")
     if len(mots) == 4:
