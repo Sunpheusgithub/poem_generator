@@ -1,10 +1,10 @@
-ami , amie , amis , amies
-chat , chatte , chats , chattes
-chien , chienne , chiens , chiennes
-acteur , actrice , acteurs , actrices
-danseur , danseuse , danseurs , danseuses
-lion , lionne , lions , lionnes
-docteur , docteure , docteurs , docteures
-maître , maîtresse , maîtres , maîtresses
-roi , reine , rois , reines
-vendeur , vendeuse , vendeurs , vendeuses
+ami, amie, amis, amies
+chat, chatte, chats, chattes
+chien, chienne, chiens, chiennes
+acteur, actrice, acteurs, actrices
+danseur, danseuse, danseurs, danseuses
+lion, lionne, lions, lionnes
+docteur, docteure, docteurs, docteures
+maître, maîtresse, maîtres, maîtresses
+roi, reine , rois , reines
+vendeur, vendeuse, vendeurs, vendeuses
