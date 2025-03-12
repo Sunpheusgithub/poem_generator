@@ -1,0 +1,11 @@
+Générateur de poèmes en base algorithmique.
+
+1 - inputs utilisateur :
+
+    multiples variable affectant la génération du poème:
+
+    structure -> type de poeme ex: sonnet, aiku, tercet ; type de donnée -> string
+    syllabes -> nombre de syllabes par vers ; type de donnée -> integer
+    type_rime -> type de rimes ex: ABAB(croisés, suivies) ; type de donnée -> list
+    p_rimes = input('phonétique du poeme forme : "ou","é"') #tuple
+    theme = input ('quelle est la thematique du poeme') #string
