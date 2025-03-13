@@ -6,6 +6,6 @@ Générateur de poèmes en base algorithmique.
 
     structure -> type de poeme ex: sonnet, aiku, tercet ; type de donnée -> string
     syllabes -> nombre de syllabes par vers ; type de donnée -> integer
-    type_rime -> type de rimes ex: ABAB(croisés, suivies) ; type de donnée -> list
-    p_rimes = input('phonétique du poeme forme : "ou","é"') #tuple
-    theme = input ('quelle est la thematique du poeme') #string
+    type rimes -> type de rimes ex: ABAB(croisés, suivies) ; type de donnée -> list
+    phonétique rimes = phonétique du poeme forme : "ou","é" ; type de donnée -> tuple
+    theme = thematique du poeme ex: "nature" ; type de données -> string
