@@ -1,5 +1,4 @@
 ami, amie, amis, amies
-chien, chienne, chiens, chiennes
 acteur, actrice, acteurs, actrices
 danseur, danseuse, danseurs, danseuses
 lion, lionne, lions, lionnes

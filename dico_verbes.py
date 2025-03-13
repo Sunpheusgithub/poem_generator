@@ -24,7 +24,3 @@ with open("dico_verbes.txt", "r", encoding="utf-8") as fichier:
             verbe_liste["Vous"].append(mots[1] + "ez")
             verbe_liste["Ils"].append(mots[3] + "ent")
             verbe_liste["Elles"].append(mots[3] + "ent")
-
-# Afficher la liste des verbes par pronom personnel
-for pronom, verbes in verbe_liste.items():
-    print(f"{pronom}: {verbes}")
