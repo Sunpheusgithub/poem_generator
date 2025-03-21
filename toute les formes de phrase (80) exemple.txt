@@ -1,0 +1,80 @@
+Sujet + Verbe + Complément
+Sujet + Verbe + Adjectif
+Sujet + Verbe + Nom
+Sujet + Verbe + Préposition + Complément
+Sujet + Verbe + Adverbe
+Sujet + Verbe + Infinitif
+Sujet + Verbe + Pronom
+Sujet + Verbe + Complément de lieu
+Sujet + Verbe + Complément de temps
+Sujet + Verbe + Adjectif + Nom
+Sujet + Verbe + Adverbe + Complément
+Sujet + Verbe + Nom + Complément
+Sujet + Verbe + Nom + Pronom
+Sujet + Verbe + Interrogatif + Nom
+Sujet + Verbe + Complément + Adjectif
+Sujet + Verbe + Complément + Adverbe
+Sujet + Verbe + Conjonction + Sujet
+Sujet + Verbe + Pronom réfléchi
+Sujet + Verbe + Proposition subordonnée
+Sujet + Verbe + Complément + Pronom relatif
+Sujet + Verbe + Négation + Complément
+Sujet + Verbe + Comparatif + Nom
+Sujet + Verbe + Superlatif + Adjectif
+Sujet + Verbe + Pronom + Complément
+Sujet + Verbe + Nom + Adjectif
+Sujet + Verbe + Pronom + Verbe
+Sujet + Verbe + Adjectif + Complément
+Sujet + Verbe + Nom + Adverbe
+Sujet + Verbe + Proposition conditionnelle
+Sujet + Verbe + Proposition relative
+Sujet + Verbe + Complément + Conjonction
+Sujet + Verbe + Complément + Pronom démonstratif
+Sujet + Verbe + Adjectif + Complément de lieu
+Sujet + Verbe + Adverbe + Pronom
+Sujet + Verbe + Interrogatif + Complément
+Sujet + Verbe + Complément + Conjonction + Sujet
+Sujet + Verbe + Pronom + Complément de temps
+Sujet + Verbe + Pronom + Adjectif
+Sujet + Verbe + Négation + Adjectif
+Sujet + Verbe + Nom + Interrogatif
+Sujet + Verbe + Complément + Adverbe + Pronom
+Sujet + Verbe + Interrogatif + Nom + Complément
+Sujet + Verbe + Complément + Comparatif
+Sujet + Verbe + Adjectif + Pronom relatif
+Sujet + Verbe + Proposition principale + Subordonnée
+Sujet + Verbe + Nom + Pronom relatif
+Sujet + Verbe + Pronom + Nom
+Sujet + Verbe + Pronom interrogatif + Complément
+Sujet + Verbe + Nom + Complément de lieu
+Sujet + Verbe + Infinitif + Complément
+Sujet + Verbe + Subordonnée + Adjectif
+Sujet + Verbe + Comparatif + Adjectif
+Sujet + Verbe + Complément + Pronom relatif
+Sujet + Verbe + Adjectif + Pronom démonstratif
+Sujet + Verbe + Nom + Proposition subordonnée
+Sujet + Verbe + Négation + Pronom
+Sujet + Verbe + Adjectif + Pronom personnel
+Sujet + Verbe + Proposition subordonnée + Nom
+Sujet + Verbe + Complément + Pronom réfléchi
+Sujet + Verbe + Adverbe + Complément de temps
+Sujet + Verbe + Négation + Adverbe
+Sujet + Verbe + Adjectif + Pronom réfléchi
+Sujet + Verbe + Nom + Complément circonstanciel
+Sujet + Verbe + Proposition conditionnelle + Nom
+Sujet + Verbe + Pronom démonstratif + Nom
+Sujet + Verbe + Nom + Pronom interrogatif
+Sujet + Verbe + Pronom + Proposition relative
+Sujet + Verbe + Pronom + Nom + Adverbe
+Sujet + Verbe + Complément + Subordonnée temporelle
+Sujet + Verbe + Complément + Proposition causale
+Sujet + Verbe + Proposition subordonnée + Adverbe
+Sujet + Verbe + Adverbe + Proposition conditionnelle
+Sujet + Verbe + Complément de lieu + Adjectif
+Sujet + Verbe + Comparatif + Pronom
+Sujet + Verbe + Nom + Adjectif + Pronom relatif
+Sujet + Verbe + Adverbe + Comparatif + Nom
+Sujet + Verbe + Pronom + Proposition causale
+Sujet + Verbe + Complément + Subordonnée relative
+Sujet + Verbe + Proposition subordonnée + Complément
+Sujet + Verbe + Négation + Pronom relatif
