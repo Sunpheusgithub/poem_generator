@@ -1,8 +1,9 @@
 Sujet, Verbe, Nom 
-Sujet, Verbe, Infinitif
-Sujet, Verbe, Pronom
 Sujet, Verbe, Adjectif, Nom
+Sujet, Verbe, Pronom
 Sujet, Verbe, Nom, Pronom
+Sujet, Verbe, Infinitif
+
 
 
 Sujet, Verbe, Interrogatif, Nom
