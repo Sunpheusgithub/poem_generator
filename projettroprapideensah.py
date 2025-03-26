@@ -110,8 +110,9 @@ def choisir_nom(theme: str, sing_ou_plur: str, femin_ou_masc: str) -> str:
 
 def count_syllables(vers: str) -> int:
     """
-    Compte le nombre de syllabes dans un vers (cette fonction peut être améliorée).
+    Compte le nombre de syllabes dans un vers (cette fonction peut être améliorée). #ne pas compter les doublons de voyelles
     """
+    
     return sum(1 for char in vers if char in "aeiouy")
 
 def afficher_poeme(poeme: List[str]) -> None:
