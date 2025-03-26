@@ -1,7 +1,7 @@
 import random
 from typing import List
-from dico_verbes import verbe_liste
-from dico_nCommuns import noms
+from dico_gen import verbe_liste
+from dico_gen import noms
 
 def generateur_de_poeme(structure: str, syllabes: int, theme: str, rimes: List[str]) -> None:
     """
