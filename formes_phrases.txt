@@ -1,4 +1,4 @@
-Sujet, Verbe, Nom
+Sujet, Verbe, Nom 
 Sujet, Verbe, Infinitif
 Sujet, Verbe, Pronom
 Sujet, Verbe, Adjectif, Nom
