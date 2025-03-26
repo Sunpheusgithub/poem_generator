@@ -17,6 +17,7 @@ def generateur_de_poeme(structure: str, syllabes: int, theme: str, rimes: List[s
             for j in range(taille[i]):
                 # On écrit le vers en prenant en compte tout ce qu'il faut prendre en compte
                 vers = ecrire_le_vers(syllabes, theme, rimes)
+                print(count_syllables(vers),vers)
                 while count_syllables(vers) != syllabes:  # Assurer que le vers correspond au nombre de syllabes
                     vers = ecrire_le_vers(syllabes, theme, rimes)
                 poeme_final.append(vers)
@@ -110,10 +111,23 @@ def choisir_nom(theme: str, sing_ou_plur: str, femin_ou_masc: str) -> str:
 
 def count_syllables(vers: str) -> int:
     """
-    Compte le nombre de syllabes dans un vers (cette fonction peut être améliorée). #ne pas compter les doublons de voyelles
+    Compte le nombre de syllabes dans un vers. 
     """
-    
-    return sum(1 for char in vers if char in "aeiouy")
+    voyelles = "AEIOUYaeiouy"
+    if vers[0] in voyelles :
+        count = 1
+    else : 
+        count = 0
+    for i in range(len(vers)-1) :
+        if vers[i] in voyelles and vers[i+1] not in voyelles:  #ne pas compter les doublons de voyelles
+            if vers[i+1] == " " or i == len(vers)-2 :
+                if vers[i] not in "Ee" : ## TODO "es"
+                    count += 1
+                else :
+                    pass ## TODO compter le ou les
+            else :
+                count += 1
+    return count
 
 def afficher_poeme(poeme: List[str]) -> None:
     """
