@@ -1,7 +1,7 @@
 import random
 from typing import List
-from dico_gen import verbe_liste
-from dico_gen import noms
+from dico_gen import verbes_liste
+from dico_gen import noms_liste
 
 def generateur_de_poeme(structure: str, syllabes: int, theme: str, rimes: List[str]) -> None:
     """
@@ -52,7 +52,7 @@ def ecrire_le_vers(syllabes: int, theme: str, rimes: List[str]) -> str:
     sujet_a_utiliser = prenom_vers_il(sujet, sujet_liste_prenom)
 
     # Choisir un verbe aléatoire en lien avec le sujet
-    verbe = random.choice(verbe_liste[sujet_a_utiliser])
+    verbe = random.choice(verbes_liste[sujet_a_utiliser])
 
     # Déterminer si la suite sera au singulier ou au pluriel, et féminin ou masculin
     sing_ou_plur = random.choice(["singulier", "pluriel"])
@@ -96,14 +96,14 @@ def choisir_nom(theme: str, sing_ou_plur: str, femin_ou_masc: str) -> str:
     if theme == "nature":
         if sing_ou_plur == "pluriel":
             key = f"p{femin_ou_masc.capitalize()}"
-            if key in noms:
-                return random.choice(noms[key])
+            if key in noms_liste:
+                return random.choice(noms_liste[key])
             else:
                 raise KeyError(f"Clé '{key}' non trouvée dans le dictionnaire des noms.")
         else:
             key = femin_ou_masc
-            if key in noms:
-                return random.choice(noms[key])
+            if key in noms_liste:
+                return random.choice(noms_liste[key])
             else:
                 raise KeyError(f"Clé '{key}' non trouvée dans le dictionnaire des noms.")
     return ""
