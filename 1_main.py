@@ -46,10 +46,11 @@ def ecrire_le_vers(syllabes: int, theme: str, rimes: List[str]) -> str:
     Écrit un vers en fonction du nombre de syllabes, du thème et des rimes.
     """
     sujet_liste = ["Je", "Tu","On", "Il", "Elle", "Nous", "Vous", "Ils", "Elles", "Elouan", "Riwal", "Ferdinand", "Enzo", "Gaël","monsieur Bidault"]
-
+    sujet_masculin = ["Elouan", "Riwal", "Ferdinand", "Enzo", "Gaël","monsieur Bidault"]
+    sujet_feminin = []
     # Choisir un sujet aléatoire
     sujet = random.choice(sujet_liste)
-    sujet_a_utiliser = prenom_vers_il(sujet)
+    sujet_a_utiliser = prenom_vers_il(sujet,sujet_masculin,sujet_feminin)
 
     # Choisir un verbe aléatoire en lien avec le sujet
     verbe = random.choice(verbes_liste[sujet_a_utiliser])
@@ -83,11 +84,16 @@ def choisir_determinant(sing_ou_plur: str, femin_ou_masc: str) -> str:
     else:
         return random.choice(["la", "une"])
 
-def prenom_vers_il(sujet: str) -> str:
+def prenom_vers_il(sujet: str,sujet_masculin:list[str],sujet_feminin:list[str]) -> str:
     """
-    Remplace un prénom par "Il" si le sujet est un prénom.
+    Remplace un prénom par "Il" ou "Elle" si le sujet est un prénom.
     """
-    return "Il" if sujet not in ["Je", "Tu", "Il","On", "Elle", "Nous", "Vous", "Ils", "Elles","je","tu","il","on","elle","nous","vous","ils","elles"] else sujet
+    sujet_choisi = sujet
+    if sujet in sujet_masculin :
+        sujet_choisi = "Il"
+    elif sujet in sujet_feminin :
+        sujet_choisi = "Elle"
+    return sujet_choisi
 
 def choisir_nom(theme: str, sing_ou_plur: str, femin_ou_masc: str) -> str:
     """

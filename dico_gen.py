@@ -52,9 +52,10 @@ with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
             noms_liste["phonetique_feminin"].append(mots[5])
             noms_liste["phonetique_pMasculin"].append(mots[6])
             noms_liste["phonetique_pFeminin"].append(mots[7])
-            noms_liste["theme"].append(mots[8])
-            if mots[8] not in liste_themes:
-                liste_themes.append(mots[8])
-            # ajouter themes dans dico_nCommuns.txt
+            #noms_liste["theme"].append(mots[8])
+            #if mots[8] not in liste_themes:
+            #   liste_themes.append(mots[8])
+
+            # TODO ajouter themes dans dico_nCommuns.txt
 
 print(noms_liste)
