@@ -56,9 +56,7 @@ with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
 
             # TODO ajouter themes dans dico_nCommuns.txt
 
-liste_formes_phrases = {
-
-}
+liste_formes_phrases = {}
 
 with open("formes_phrases.txt", "r", encoding="utf-8") as fichier: #generer avec structure type :
     i = 0                                                          #f"{sujet} {verbe} {determinant} {nom}" 
@@ -74,5 +72,5 @@ with open("formes_phrases.txt", "r", encoding="utf-8") as fichier: #generer avec
             liste_formes_phrases[i].append(part)  # Ajoute l'élément à la liste
             # TODO faire correspondre avec la structure type
 
-    print(liste_formes_phrases[1]) # -> [{'Sujet'}, {'Verbe'}, {'Nom'}]
+    print(liste_formes_phrases) # -> [{'Sujet'}, {'Verbe'}, {'Nom'}]
 
