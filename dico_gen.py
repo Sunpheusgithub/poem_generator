@@ -69,8 +69,9 @@ with open("formes_phrases.txt", "r", encoding="utf-8") as fichier: #generer avec
         for item in range(len(mots)):
             structure.append({mots[item]})
         for part in structure:
-            #TODO ajouter les formes de phrases dans le dico
-        print(structure)
+            # TODO ajouter les formes de phrases dans le dico
+            pass
+    print(structure)
 
     print(liste_formes_phrases)
 
