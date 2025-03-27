@@ -55,3 +55,22 @@ with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
             #   liste_themes.append(mots[8])
 
             # TODO ajouter themes dans dico_nCommuns.txt
+
+liste_formes_phrases = {
+
+}
+
+with open("formes_phrases.txt", "r", encoding="utf-8") as fichier: #generer avec structure type :
+    i = 0                                                          #f"{sujet} {verbe} {determinant} {nom}" 
+    for ligne in fichier:
+        structure = []                                     
+        mots = ligne.strip().split(", ")
+        i += 1
+        for item in range(len(mots)):
+            structure.append({mots[item]})
+        for part in structure:
+            #TODO ajouter les formes de phrases dans le dico
+        print(structure)
+
+    print(liste_formes_phrases)
+
