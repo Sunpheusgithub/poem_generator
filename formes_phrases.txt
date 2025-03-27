@@ -3,9 +3,7 @@ Sujet, Verbe, Adjectif, Nom
 Sujet, Verbe, Pronom
 Sujet, Verbe, Nom, Pronom
 Sujet, Verbe, Infinitif
-
-
-
+__
 Sujet, Verbe, Interrogatif, Nom
 Sujet, Verbe, Conjonction, Sujet
 Sujet, Verbe, Comparatif, Nom
@@ -20,12 +18,7 @@ Sujet, Verbe, Pronom, Nom
 Sujet, Verbe, Complément, Conjonction, Sujet
 Sujet, Verbe, Pronom démonstratif, Nom
 Sujet, Verbe, Pronom, Verbe
-
-
-
-
-
-
+__
 Sujet, Verbe, Complément
 Sujet, Verbe, Adjectif
 Sujet, Verbe, Préposition, Complément
