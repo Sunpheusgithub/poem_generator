@@ -1,24 +1,24 @@
-ami-i*, amie-i*, amis-i*, amies-i*
-acteur-er, actrice-is, acteurs-er, actrices-is
-danseur-er, danseuse-ez, danseurs-er, danseuses-ez
-lion-on, lionne-ne, lions-on, lionnes-ne
-docteur-er, docteure-er, docteurs-er, docteures-er
-maître-re, maîtresse-es, maîtres-re, maîtresses-es
-roi-oi, reine-ne, rois-oi, reines-ne,
-vendeur-er, vendeuse-ez, vendeurs-er, vendeuses-ez
-professeur-er, professeure-er, professeurs-er, professeures-er
-étudiant-an, étudiante-te, étudiants-an, étudiantes-te
-écrivain, écrivaine, écrivains, écrivaines
-peintre, peintresse, peintres, peintresses
-chanteur, chanteuse, chanteurs, chanteuses
-cuisinier, cuisinière, cuisiniers, cuisinières
-jardinier, jardinière, jardiniers, jardinières
-pilote, pilote, pilotes, pilotes
-avocat, avocate, avocats, avocates
-ingénieur, ingénieure, ingénieurs, ingénieures
-architecte, architecte, architectes, architectes
-pharmacien, pharmacienne, pharmaciens, pharmaciennes
-boulanger, boulangère, boulangers, boulangères
-pompier, pompière, pompiers, pompières
-policier, policière, policiers, policières
-directeur, directrice, directeurs, directrices
+ami, amie, amis, amies, i, i, i, i
+acteur, actrice, acteurs, actrices, eur, is, eur, is
+danseur, danseuse, danseurs, danseuses, eur, ez, eur, ez
+lion, lionne, lions, lionnes, on, ne, on, ne
+docteur, docteure, docteurs, docteures, eur, eur, eur, eur
+maître, maîtresse, maîtres, maîtresses, tre, es, tre, es
+roi, reine, rois, reines, oi, ne, oi, ne
+vendeur, vendeuse, vendeurs, vendeuses, eur, ez, eur, ez
+professeur, professeure, professeurs, professeures, eur, eur, eur, eur
+étudiant, étudiante, étudiants, étudiantes, ant, te, ant, te
+écrivain, écrivaine, écrivains, écrivaines, in, ine, in, ine
+peintre, peintresse, peintres, peintresses, tre, tre, tre, tre
+chanteur, chanteuse, chanteurs, chanteuses, eur, ez, eur, ez
+cuisinier, cuisinière, cuisiniers, cuisinières, ier, iere, ier, iere
+jardinier, jardinière, jardiniers, jardinières, ier, iere, ier, iere
+pilote, pilote, pilotes, pilotes, te, te, te, te
+avocat, avocate, avocats, avocates, at, ate, at, ate
+ingénieur, ingénieure, ingénieurs, ingénieures, eur, eur, eur, eur
+architecte, architecte, architectes, architectes, te, te, te, te
+pharmacien, pharmacienne, pharmaciens, pharmaciennes, ien, ienne, ien, ienne
+boulanger, boulangère, boulangers, boulangères, er, ere, er, ere
+pompier, pompière, pompiers, pompières, ier, iere, ier, iere
+policier, policière, policiers, policières, ier, iere, ier, iere
+directeur, directrice, directeurs, directrices, eur, ice, eur, ice
