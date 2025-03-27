@@ -34,8 +34,11 @@ noms_liste = {
     "phonetique_masculin": [],
     "phonetique_feminin": [],
     "phonetique_pMasculin": [],
-    "phonetique_pFeminin": []
+    "phonetique_pFeminin": [],
+    "theme": []
 }
+
+liste_themes = ["nature","amour","vie","sentiments","emotions","beauté","musique","animaux","art"] # ajouter des themes / ajuster
 
 with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
     for ligne in fichier:
@@ -49,5 +52,9 @@ with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
             noms_liste["phonetique_feminin"].append(mots[5])
             noms_liste["phonetique_pMasculin"].append(mots[6])
             noms_liste["phonetique_pFeminin"].append(mots[7])
+            noms_liste["theme"].append(mots[8])
+            if mots[8] not in liste_themes:
+                liste_themes.append(mots[8])
+            # ajouter themes
 
 print(noms_liste)
