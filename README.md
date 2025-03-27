@@ -1,3 +1,4 @@
-# poem_generator / trophés NSI 2025
+poem_generator / trophés NSI 2025
 
-#Gaël fait du Code et nous on observe
+Le probleme de branche est résolut, une commande git permet la fusion
+P.S, préferez un push dans le main svp
