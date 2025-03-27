@@ -93,6 +93,7 @@ def prenom_vers_il(sujet: str, sujet_liste_prenom: List[str]) -> str:
 def choisir_nom(theme: str, sing_ou_plur: str, femin_ou_masc: str) -> str:
     """
     Choisit un nom en fonction du thème, du nombre et du genre.
+    TODO rimes et thèmes
     """
     if theme == "nature":
         if sing_ou_plur == "pluriel":
