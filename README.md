@@ -6,3 +6,4 @@ P.S, préferez un push dans le main
 TODO :
 dans choisir_nom, ajouter themes et phonetique
 + dico themes
+structure des phrases fonction ecrire_le_vers

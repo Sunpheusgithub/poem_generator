@@ -36,7 +36,7 @@ def structure_traitement(structure: str) -> List[int]:
     elif structure == "rondeau":
         taille_finale = [3, 0, 3, 0, 3]
     elif structure == "haïku":
-        taille_finale = [3, 5, 3]  # Structure traditionnelle du haïku
+        taille_finale = [3]  # Structure traditionnelle du haïku avec 5, 7 et 5 syllabes
     elif structure == "prose":
         taille_finale = [random.randint(1, 5) for i in range(3)]  # Nombre aléatoire de lignes
     return taille_finale
@@ -45,12 +45,11 @@ def ecrire_le_vers(syllabes: int, theme: str, rimes: List[str]) -> str:
     """
     Écrit un vers en fonction du nombre de syllabes, du thème et des rimes.
     """
-    sujet_liste = ["Je", "Tu", "Il", "Elle", "Nous", "Vous", "Ils", "Elles", "Elouan", "Riwal", "Ferdinand", "Enzo", "Gaël"]
-    sujet_liste_prenom = ["Elouan", "Riwal", "Ferdinand", "Enzo", "Gaël"]
+    sujet_liste = ["Je", "Tu","On", "Il", "Elle", "Nous", "Vous", "Ils", "Elles", "Elouan", "Riwal", "Ferdinand", "Enzo", "Gaël","monsieur Bidault"]
 
     # Choisir un sujet aléatoire
     sujet = random.choice(sujet_liste)
-    sujet_a_utiliser = prenom_vers_il(sujet, sujet_liste_prenom)
+    sujet_a_utiliser = prenom_vers_il(sujet)
 
     # Choisir un verbe aléatoire en lien avec le sujet
     verbe = random.choice(verbes_liste[sujet_a_utiliser])
@@ -66,7 +65,7 @@ def ecrire_le_vers(syllabes: int, theme: str, rimes: List[str]) -> str:
     nom = choisir_nom(theme, sing_ou_plur, femin_ou_masc)
 
     # Remplacer le déterminant par "l'" si le nom commence par une voyelle
-    if nom[0] in ["a", "e", "y", "u", "i", "o"]:
+    if nom[0] in "aeiouyAEIOUY":
         determinant = "l'"
 
     # Construire le vers avec des espaces entre les mots
@@ -84,11 +83,11 @@ def choisir_determinant(sing_ou_plur: str, femin_ou_masc: str) -> str:
     else:
         return random.choice(["la", "une"])
 
-def prenom_vers_il(sujet: str, sujet_liste_prenom: List[str]) -> str:
+def prenom_vers_il(sujet: str) -> str:
     """
     Remplace un prénom par "Il" si le sujet est un prénom.
     """
-    return "Il" if sujet in sujet_liste_prenom else sujet
+    return "Il" if sujet not in ["Je", "Tu", "Il","On", "Elle", "Nous", "Vous", "Ils", "Elles","je","tu","il","on","elle","nous","vous","ils","elles"] else sujet
 
 def choisir_nom(theme: str, sing_ou_plur: str, femin_ou_masc: str) -> str:
     """
