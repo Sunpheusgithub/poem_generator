@@ -55,6 +55,6 @@ with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
             noms_liste["theme"].append(mots[8])
             if mots[8] not in liste_themes:
                 liste_themes.append(mots[8])
-            # ajouter themes
+            # ajouter themes dans dico_nCommuns.txt
 
 print(noms_liste)
