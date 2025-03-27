@@ -17,7 +17,6 @@ def generateur_de_poeme(structure: str, syllabes: int, theme: str, rimes: List[s
             for j in range(taille[i]):
                 # On écrit le vers en prenant en compte tout ce qu'il faut prendre en compte
                 vers = ecrire_le_vers(syllabes, theme, rimes)
-                print(count_syllables(vers),vers)
                 while count_syllables(vers) != syllabes:  # Assurer que le vers correspond au nombre de syllabes
                     vers = ecrire_le_vers(syllabes, theme, rimes)
                 poeme_final.append(vers)
@@ -66,11 +65,13 @@ def ecrire_le_vers(syllabes: int, theme: str, rimes: List[str]) -> str:
     nom = choisir_nom(theme, sing_ou_plur, femin_ou_masc)
 
     # Remplacer le déterminant par "l'" si le nom commence par une voyelle
-    if nom[0] in "aeiouyAEIOUY":
+    if nom[0] in "aeiouyAEIOUYéèàùêâûîô" and determinant in ["le", "la"]:
         determinant = "l'"
 
     # Construire le vers avec des espaces entre les mots
     vers = f"{sujet} {verbe} {determinant} {nom}"
+    if "l' " in vers:
+        vers = vers.replace("l' ", "l'")
     return vers
 
 def choisir_determinant(sing_ou_plur: str, femin_ou_masc: str) -> str:

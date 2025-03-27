@@ -24,8 +24,6 @@ with open("dico_verbes.txt", "r", encoding="utf-8") as fichier:
             verbes_liste["Ils"].append(mots[6])  
             verbes_liste["Elles"].append(mots[6])  
 
-print(verbes_liste)
-
 noms_liste = {
     "masculin": [],
     "feminin": [],
@@ -57,5 +55,3 @@ with open("dico_nCommuns.txt", "r", encoding="utf-8") as fichier:
             #   liste_themes.append(mots[8])
 
             # TODO ajouter themes dans dico_nCommuns.txt
-
-print(noms_liste)
