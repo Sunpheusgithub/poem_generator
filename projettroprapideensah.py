@@ -121,10 +121,12 @@ def count_syllables(vers: str) -> int:
     for i in range(len(vers)-1) :
         if vers[i] in voyelles and vers[i+1] not in voyelles:  #ne pas compter les doublons de voyelles
             if vers[i+1] == " " or i == len(vers)-2 :
-                if vers[i] not in "Ee" : ## TODO "es"
+                if vers[i] not in "eE" :
                     count += 1
-                else :
-                    pass ## TODO compter le ou les
+                elif f'{vers[i-1]}{vers[i]}' not in ["ES","es"]:
+                    count += 1
+                elif f'{vers[i-1]}{vers[i]}' in ["LE","Le","le"] or f'{vers[i-2]}{vers[i-1]}{vers[i]}' not in ["LES","Les","les"]:
+                    count += 1
             else :
                 count += 1
     return count
