@@ -1,30 +1,30 @@
-rêver, rêve, rêves, rêve
-regarder, regarde, regardes, regarde
-penser, pense, penses, pense
-imaginer, imagine, imagines, imagine
-danser, danse, danses, danse
-sentir, sens, sens, sent
-ouvrir, ouvre, ouvres, ouvre
-ressentir, ressens, ressens, ressent
-créer, crée, crées, crée
-toucher, touche, touches, touche
-manger, mange, manges, mange
-parler, parle, parles, parle
-courir, cours, cours, court
-écrire, écris, écris, écrit
-lire, lis, lis, lit
-chanter, chante, chantes, chante
-jouer, joue, joues, joue
-écouter, écoute, écoutes, écoute
-voir, vois, vois, voit
-aimer, aime, aimes, aime
-détester, déteste, détestes, déteste
-vivre, vis, vis, vit
-mourir, meurs, meurs, meurt
-venir, viens, viens, vient
-partir, pars, pars, part
-rester, reste, restes, reste
-monter, monte, montes, monte
-descendre, descends, descends, descend
-entrer, entre, entres, entre
-sortir, sors, sors, sort
+rêver, rêve, rêves, rêve, rêvons, rêvez, rêvent
+regarder, regarde, regardes, regarde, regardons, regardez, regardent
+penser, pense, penses, pense, pensons, pensez, pensent
+imaginer, imagine, imagines, imagine, imaginons, imaginez, imaginent
+danser, danse, danses, danse, dansons, dansez, dansent
+sentir, sens, sens, sent, sentons, sentez, sentent
+ouvrir, ouvre, ouvres, ouvre, ouvrons, ouvrez, ouvrent
+ressentir, ressens, ressens, ressent, ressentons, ressentez, ressentent
+créer, crée, crées, crée, créons, créez, créent
+toucher, touche, touches, touche, touchons, touchez, touchent
+manger, mange, manges, mange, mangeons, mangez, mangent
+parler, parle, parles, parle, parlons, parlez, parlent
+courir, cours, cours, court, courons, courez, courent
+écrire, écris, écris, écrit, écrivons, écrivez, écrivent
+lire, lis, lis, lit, lisons, lisez, lisent
+chanter, chante, chantes, chante, chantons, chantez, chantent
+jouer, joue, joues, joue, jouons, jouez, jouent
+écouter, écoute, écoutes, écoute, écoutons, écoutez, écoutent
+voir, vois, vois, voit, voyons, voyez, voient
+aimer, aime, aimes, aime, aimons, aimez, aiment
+détester, déteste, détestes, déteste, détestons, détestez, détestent
+vivre, vis, vis, vit, vivons, vivez, vivent
+mourir, meurs, meurs, meurt, mourons, mourez, meurent
+venir, viens, viens, vient, venons, venez, viennent
+partir, pars, pars, part, partons, partez, partent
+rester, reste, restes, reste, restons, restez, restent
+monter, monte, montes, monte, montons, montez, montent
+descendre, descends, descends, descend, descendons, descendez, descendent
+entrer, entre, entres, entre, entrons, entrez, entrent
+sortir, sors, sors, sort, sortons, sortez, sortent

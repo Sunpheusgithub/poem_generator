@@ -66,7 +66,7 @@ def ecrire_le_vers(syllabes: int, theme: str, rimes: List[str]) -> str:
     nom = choisir_nom(theme, sing_ou_plur, femin_ou_masc)
 
     # Remplacer le déterminant par "l'" si le nom commence par une voyelle
-    if nom[0] in ["a", "e", "y", "u", "i", "o"] is determinant in ["la", "le"]:
+    if nom[0] in ["a", "e", "y", "u", "i", "o"]:
         determinant = "l'"
 
     # Construire le vers avec des espaces entre les mots
